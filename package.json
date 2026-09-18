@@ -1,0 +1,19 @@
+{
+  "name": "cm-reservas",
+  "version": "1.0.0",
+  "description": "Sistema de reservas de servicios — Prueba técnica CM Softlutions",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
